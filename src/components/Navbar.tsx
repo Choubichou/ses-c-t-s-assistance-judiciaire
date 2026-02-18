@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.jpg";
 
 const navLinks = [
   { name: "Accueil", path: "/" },
   { name: "Articles", path: "/articles" },
-  { name: "Données", path: "/donnees" },
+  { name: "Chiffres clés", path: "/donnees" },
   { name: "À propos", path: "/a-propos" },
   { name: "Contact", path: "/contact" },
 ];
@@ -19,12 +19,10 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-nav shadow-sm">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
           <Link to="/" className="flex-shrink-0">
             <img src={logo} alt="À SES CÔTÉS" className="h-12 w-auto" />
           </Link>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-10">
             {navLinks.map((link) => (
               <Link
@@ -39,7 +37,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden p-2 text-nav-foreground hover:text-primary transition-colors"
@@ -49,7 +46,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden pb-6 animate-fade-in">
             <div className="flex flex-col gap-4">
