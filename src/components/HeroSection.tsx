@@ -32,7 +32,7 @@ const HeroSection = () => {
           <img
             src={logoBaseline}
             alt="À SES CÔTÉS - Des chiens pour soutenir les victimes"
-            className="w-full max-w-2xl mx-auto mb-12 drop-shadow-2xl"
+            className="w-full max-w-3xl mx-auto mb-12 drop-shadow-2xl"
           />
 
           <button
@@ -48,7 +48,6 @@ const HeroSection = () => {
               onClick={handleScrollDown}
               className="text-white/70 hover:text-white transition-colors flex flex-col items-center gap-2 mx-auto"
             >
-              <span className="text-sm font-medium tracking-wide">Découvrir</span>
               <ChevronDown className="w-6 h-6 animate-bounce" />
             </button>
           </div>
