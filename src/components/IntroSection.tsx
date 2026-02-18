@@ -22,13 +22,13 @@ const IntroSection = () => {
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
           {/* Text - Left */}
           <div className="lg:w-1/2 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              A Ses Côtés est un projet qui vous invite à découvrir le rôle des chiens d'assistance judiciaire.
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 text-justify">
+              À Ses Côtés est un projet qui vous invite à découvrir le rôle des chiens d'assistance judiciaire.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 text-justify">
               Ces chiens sont spécialement formés pour accompagner les victimes d'infractions pénales et leur apporter un soutien moral dans l'épreuve du témoignage face à la justice.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 text-justify">
               Depuis sa mise en place en 2019 en France, ce dispositif tend à se généraliser dans chaque département sur le territoire. Mais il reste encore trop méconnu du grand public, d'où la nécessité de le mettre en lumière.
             </p>
 
