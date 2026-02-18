@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Instagram, Facebook } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import logoFooter from "@/assets/logo-footer.png";
 
 const Footer = () => {
   return (
@@ -9,16 +9,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
           {/* Logo & Description */}
           <div className="space-y-4">
-            <img src={logo} alt="À SES CÔTÉS" className="h-10 w-auto brightness-0 invert" />
+            <img src={logoFooter} alt="À SES CÔTÉS" className="h-10 w-auto brightness-0 invert" />
             <p className="text-background/70 text-sm leading-relaxed">
               Un projet journalistique sur les chiens d'assistance judiciaire en France.
             </p>
           </div>
 
-          {/* Navigation - centered */}
-          <div className="text-center">
+          {/* Navigation - centered & justified */}
+          <div className="flex flex-col items-center">
             <h4 className="font-semibold mb-4">Navigation</h4>
-            <ul className="space-y-2">
+            <ul className="space-y-2 text-left w-full">
               <li><Link to="/" className="text-background/70 hover:text-background transition-colors text-sm">Accueil</Link></li>
               <li><Link to="/articles" className="text-background/70 hover:text-background transition-colors text-sm">Articles</Link></li>
               <li><Link to="/donnees" className="text-background/70 hover:text-background transition-colors text-sm">Chiffres clés</Link></li>
