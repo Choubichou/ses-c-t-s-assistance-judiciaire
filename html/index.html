@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>À SES CÔTÉS - Des chiens pour soutenir les victimes</title>
+  <meta name="description" content="Découvrez le rôle essentiel des chiens d'assistance judiciaire en France. Un projet journalistique sur ces compagnons qui accompagnent les victimes." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="htflow-wrapper">
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo">
+        <img src="../src/assets/logo.jpg" alt="À SES CÔTÉS" class="navbar-logo-img" />
+      </a>
+      <div class="navbar-links">
+        <a href="index.html" class="navbar-link" data-nav-link>Accueil</a>
+        <a href="articles.html" class="navbar-link" data-nav-link>Articles</a>
+        <a href="donnees.html" class="navbar-link" data-nav-link>Chiffres clés</a>
+        <a href="a-propos.html" class="navbar-link" data-nav-link>À propos</a>
+        <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+      </div>
+      <button class="navbar-toggle" data-action="toggle-menu" aria-label="Menu">
+        <svg data-icon="menu-open" class="navbar-toggle-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg data-icon="menu-close" class="navbar-toggle-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display:none;"><path d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="navbar-mobile" data-menu="mobile">
+      <a href="index.html" class="navbar-mobile-link" data-nav-mobile-link>Accueil</a>
+      <a href="articles.html" class="navbar-mobile-link" data-nav-mobile-link>Articles</a>
+      <a href="donnees.html" class="navbar-mobile-link" data-nav-mobile-link>Chiffres clés</a>
+      <a href="a-propos.html" class="navbar-mobile-link" data-nav-mobile-link>À propos</a>
+      <a href="contact.html" class="navbar-mobile-link" data-nav-mobile-link>Contact</a>
+    </div>
+  </nav>
+
+  <main class="site-main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="../public/videos/hero-background.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-inner">
+          <img src="../src/assets/logo-baseline.png" alt="À SES CÔTÉS - Des chiens pour soutenir les victimes" class="hero-logo-img" />
+          <button class="hero-btn" data-action="watch-documentary">
+            <svg class="hero-btn-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Voir le documentaire
+          </button>
+          <div>
+            <button class="hero-scroll-btn" data-action="scroll-down">
+              <svg class="hero-scroll-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section id="intro-section" class="intro">
+      <div class="site-container">
+        <div class="intro-grid">
+          <div class="intro-text">
+            <p class="intro-paragraph">À Ses Côtés est un projet qui vous invite à découvrir le rôle des chiens d'assistance judiciaire.</p>
+            <p class="intro-paragraph">Ces chiens sont spécialement formés pour accompagner les victimes d'infractions pénales et leur apporter un soutien moral dans l'épreuve du témoignage face à la justice.</p>
+            <p class="intro-paragraph">Depuis sa mise en place en 2019 en France, ce dispositif tend à se généraliser dans chaque département sur le territoire. Mais il reste encore trop méconnu du grand public, d'où la nécessité de le mettre en lumière.</p>
+            <div class="intro-stats">
+              <div class="intro-stat">
+                <div class="intro-stat-circle-gold">
+                  <span class="intro-stat-number">37</span>
+                </div>
+                <span class="intro-stat-label">Chiens en activité</span>
+              </div>
+              <div class="intro-stat">
+                <div class="intro-stat-circle-blue">
+                  <span class="intro-stat-number-white">+</span>
+                </div>
+                <span class="intro-stat-label">De 1 000 victimes accompagnées</span>
+              </div>
+            </div>
+          </div>
+          <div class="intro-photos">
+            <div class="intro-carousel" data-carousel="intro">
+              <img src="../src/assets/photo-1.jpg" alt="Chien d'assistance judiciaire 1" class="intro-carousel-img intro-carousel-img-active" data-carousel-item />
+              <img src="../src/assets/photo-2.jpg" alt="Chien d'assistance judiciaire 2" class="intro-carousel-img" data-carousel-item />
+              <img src="../src/assets/photo-3.jpg" alt="Chien d'assistance judiciaire 3" class="intro-carousel-img" data-carousel-item />
+              <div class="intro-dots">
+                <button class="intro-dot intro-dot-active" data-dot></button>
+                <button class="intro-dot" data-dot></button>
+                <button class="intro-dot" data-dot></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="site-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="../src/assets/logo-footer.png" alt="À SES CÔTÉS" class="footer-logo-img" />
+          <p class="footer-description">Un projet journalistique sur les chiens d'assistance judiciaire en France.</p>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-nav-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html" class="footer-nav-link">Accueil</a></li>
+            <li><a href="articles.html" class="footer-nav-link">Articles</a></li>
+            <li><a href="donnees.html" class="footer-nav-link">Chiffres clés</a></li>
+            <li><a href="a-propos.html" class="footer-nav-link">À propos</a></li>
+            <li><a href="contact.html" class="footer-nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-contact-title">Contact</h4>
+          <p class="footer-contact-text">Pour toute question concernant ce projet, n'hésitez pas à nous contacter via nos réseaux.</p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/a.ses.cotes?igsh=MTJzOWRlaHozYTNidw==" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+              <svg class="footer-social-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61587283439128" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+              <svg class="footer-social-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 À SES CÔTÉS. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
