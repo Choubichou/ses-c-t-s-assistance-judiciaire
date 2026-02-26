@@ -109,8 +109,9 @@ ul {
 }
 
 .navbar-logo-img {
-  height: 64px;
+  height: 3rem;
   width: auto;
+   padding: 0.3rem 0;
 }
 
 .navbar-links {
